@@ -1,0 +1,12 @@
+
+.item-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+img {
+    width: 32%;
+    cursor: pointer;
+}

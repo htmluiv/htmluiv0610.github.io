@@ -1,0 +1,58 @@
+
+td {
+    border-top: 1px solid gold;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+.cart-background {
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    padding: 3px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    
+}
+
+#num1 {
+    width: 25px;
+}
+
+#num2 {
+    width: 25px;
+}
+
+.pay-button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pay-button:hover {
+    background-color: sandybrown;
+}
+
+.nav-item {
+    
+}

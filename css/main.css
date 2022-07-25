@@ -1,0 +1,177 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    margin-bottom: 200px;
+}
+
+.main-title {
+    color: white;
+    font-size: 60px;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-button {
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: darkorange;
+    
+}
+
+.content {
+    width: 80%;
+    max-width:500px;
+    height: 220px;
+    background-color: #eee;
+    position: absolute;
+    top: 460px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.contact {
+    width: 25%;
+    height: 400px;
+    background-color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 15px;
+    min-width: 250px;
+}
+
+input[type=email] {
+    padding: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country-area {
+    margin-top: 30px;
+}
+
+.country-text {
+    display: inline;
+    margin-right: 8px;
+}
+
+.select {
+    display: inline;
+    width: 200px;
+}
+
+
+
+
+.button-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit {
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+.reset {
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}
+
+.footer { 
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eee;
+    width: 100%;
+    height: 150px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 12px;
+}
+div {
+    
+}
+
+button {
+    
+}
+
+.cart-button {
+    border: none;
+    background-color: silver;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: orange;
+}
+
+.nav-item {
+    margin: 5px;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 20px;
+    }
+}
+
+
+
